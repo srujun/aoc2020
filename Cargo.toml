@@ -1,0 +1,11 @@
+[package]
+name = "aoc2020"
+version = "0.1.0"
+authors = ["Srujun Thanmay Gupta <srujun@srujun.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+colored = "1.9.1"
+lazy_static = "1.4.0"
+regex = "1"
