@@ -6,6 +6,9 @@ use colored::*;
 use aoc2020::day01::DayOne;
 use aoc2020::day02::DayTwo;
 use aoc2020::day03::DayThree;
+use aoc2020::day04::DayFour;
+use aoc2020::day05::DayFive;
+use aoc2020::day06::DaySix;
 use aoc2020::problem::Problem;
 
 fn main() -> Result<(), String> {
@@ -78,6 +81,9 @@ fn get_problem(day: usize, debug: bool) -> Option<Box<dyn Problem>> {
       1 => Some(Box::new(DayOne::debug())),
       2 => Some(Box::new(DayTwo::debug())),
       3 => Some(Box::new(DayThree::debug())),
+      4 => Some(Box::new(DayFour::debug())),
+      5 => Some(Box::new(DayFive::debug())),
+      6 => Some(Box::new(DaySix::debug())),
       _ => None,
     }
   } else {
@@ -85,6 +91,9 @@ fn get_problem(day: usize, debug: bool) -> Option<Box<dyn Problem>> {
       1 => Some(Box::new(DayOne::new())),
       2 => Some(Box::new(DayTwo::new())),
       3 => Some(Box::new(DayThree::new())),
+      4 => Some(Box::new(DayFour::new())),
+      5 => Some(Box::new(DayFive::new())),
+      6 => Some(Box::new(DaySix::new())),
       _ => None,
     }
   }
