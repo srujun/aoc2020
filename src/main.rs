@@ -9,6 +9,25 @@ use aoc2020::day03::DayThree;
 use aoc2020::day04::DayFour;
 use aoc2020::day05::DayFive;
 use aoc2020::day06::DaySix;
+use aoc2020::day07::DaySeven;
+use aoc2020::day08::DayEight;
+// use aoc2020::day09::DayNine;
+// use aoc2020::day10::DayTen;
+// use aoc2020::day11::DayEleven;
+// use aoc2020::day12::DayTwelve;
+// use aoc2020::day13::DayThirteen;
+// use aoc2020::day14::DayFourteen;
+// use aoc2020::day15::DayFifteen;
+// use aoc2020::day16::DaySixteen;
+// use aoc2020::day17::DaySeventeen;
+// use aoc2020::day18::DayEighteen;
+// use aoc2020::day19::DayNineteen;
+// use aoc2020::day20::DayTwenty;
+// use aoc2020::day21::DayTwentyOne;
+// use aoc2020::day22::DayTwentyTwo;
+// use aoc2020::day23::DayTwentyThree;
+// use aoc2020::day24::DayTwentyFour;
+// use aoc2020::day25::DayTwentyFive;
 use aoc2020::problem::Problem;
 
 fn main() -> Result<(), String> {
@@ -84,6 +103,25 @@ fn get_problem(day: usize, debug: bool) -> Option<Box<dyn Problem>> {
       4 => Some(Box::new(DayFour::debug())),
       5 => Some(Box::new(DayFive::debug())),
       6 => Some(Box::new(DaySix::debug())),
+      7 => Some(Box::new(DaySeven::debug())),
+      8 => Some(Box::new(DayEight::debug())),
+      // 9 => Some(Box::new(DayNine::debug())),
+      // 10 => Some(Box::new(DayTen::debug())),
+      // 11 => Some(Box::new(DayEleven::debug())),
+      // 12 => Some(Box::new(DayTwelve::debug())),
+      // 13 => Some(Box::new(DayThirteen::debug())),
+      // 14 => Some(Box::new(DayFourteen::debug())),
+      // 15 => Some(Box::new(DayFifteen::debug())),
+      // 16 => Some(Box::new(DaySixteen::debug())),
+      // 17 => Some(Box::new(DaySeventeen::debug())),
+      // 18 => Some(Box::new(DayEighteen::debug())),
+      // 19 => Some(Box::new(DayNineteen::debug())),
+      // 20 => Some(Box::new(DayTwenty::debug())),
+      // 21 => Some(Box::new(DayTwentyOne::debug())),
+      // 22 => Some(Box::new(DayTwentyTwo::debug())),
+      // 23 => Some(Box::new(DayTwentyThree::debug())),
+      // 24 => Some(Box::new(DayTwentyFour::debug())),
+      // 25 => Some(Box::new(DayTwentyFive::debug())),
       _ => None,
     }
   } else {
@@ -94,6 +132,25 @@ fn get_problem(day: usize, debug: bool) -> Option<Box<dyn Problem>> {
       4 => Some(Box::new(DayFour::new())),
       5 => Some(Box::new(DayFive::new())),
       6 => Some(Box::new(DaySix::new())),
+      7 => Some(Box::new(DaySeven::new())),
+      8 => Some(Box::new(DayEight::new())),
+      // 9 => Some(Box::new(DayNine::new())),
+      // 10 => Some(Box::new(DayTen::new())),
+      // 11 => Some(Box::new(DayEleven::new())),
+      // 12 => Some(Box::new(DayTwelve::new())),
+      // 13 => Some(Box::new(DayThirteen::new())),
+      // 14 => Some(Box::new(DayFourteen::new())),
+      // 15 => Some(Box::new(DayFifteen::new())),
+      // 16 => Some(Box::new(DaySixteen::new())),
+      // 17 => Some(Box::new(DaySeventeen::new())),
+      // 18 => Some(Box::new(DayEighteen::new())),
+      // 19 => Some(Box::new(DayNineteen::new())),
+      // 20 => Some(Box::new(DayTwenty::new())),
+      // 21 => Some(Box::new(DayTwentyOne::new())),
+      // 22 => Some(Box::new(DayTwentyTwo::new())),
+      // 23 => Some(Box::new(DayTwentyThree::new())),
+      // 24 => Some(Box::new(DayTwentyFour::new())),
+      // 25 => Some(Box::new(DayTwentyFive::new())),
       _ => None,
     }
   }
