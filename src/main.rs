@@ -11,7 +11,7 @@ use aoc2020::day05::DayFive;
 use aoc2020::day06::DaySix;
 use aoc2020::day07::DaySeven;
 use aoc2020::day08::DayEight;
-// use aoc2020::day09::DayNine;
+use aoc2020::day09::DayNine;
 // use aoc2020::day10::DayTen;
 // use aoc2020::day11::DayEleven;
 // use aoc2020::day12::DayTwelve;
@@ -105,7 +105,7 @@ fn get_problem(day: usize, debug: bool) -> Option<Box<dyn Problem>> {
       6 => Some(Box::new(DaySix::debug())),
       7 => Some(Box::new(DaySeven::debug())),
       8 => Some(Box::new(DayEight::debug())),
-      // 9 => Some(Box::new(DayNine::debug())),
+      9 => Some(Box::new(DayNine::debug())),
       // 10 => Some(Box::new(DayTen::debug())),
       // 11 => Some(Box::new(DayEleven::debug())),
       // 12 => Some(Box::new(DayTwelve::debug())),
@@ -134,7 +134,7 @@ fn get_problem(day: usize, debug: bool) -> Option<Box<dyn Problem>> {
       6 => Some(Box::new(DaySix::new())),
       7 => Some(Box::new(DaySeven::new())),
       8 => Some(Box::new(DayEight::new())),
-      // 9 => Some(Box::new(DayNine::new())),
+      9 => Some(Box::new(DayNine::new())),
       // 10 => Some(Box::new(DayTen::new())),
       // 11 => Some(Box::new(DayEleven::new())),
       // 12 => Some(Box::new(DayTwelve::new())),
